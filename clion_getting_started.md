@@ -18,7 +18,7 @@
 <img src="./images/clion_run_debug.jpeg" width=80% height=80%></img>
 
 
-Чтобы добавить новый сорс, просто как на картинке прописываем его название в `CMakeLists.txt` как на картинке.
+Чтобы добавить новый сорс, просто прописываем его название в `CMakeLists.txt` как на картинке.
 
 <img src="./images/clion_сmakelists.jpg" width=80% height=80%></img>
 
@@ -42,4 +42,4 @@
 
 <img src="./images/clion_run_valgrind.png" width=80% height=80%></img>
 
-Если есть что добавить — [пишите](t.me/kukinpower)
+Если есть что добавить — [пишите](https://t.me/kukinpower/)
