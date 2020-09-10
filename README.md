@@ -11,3 +11,6 @@ dev_cheatsheet
 ## Git
 
 * [GitKracken](https://www.gitkraken.com/invite/eJK4c4B6)
+
+## React
+* [Deploy react app on Surge or Github pagese](https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/)
