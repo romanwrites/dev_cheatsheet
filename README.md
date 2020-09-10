@@ -4,7 +4,9 @@ dev_cheatsheet
 
 * [Clion](clion_getting_started.md)
 
-# Tools
+# Useful links
+* [A minimal tutorial on make](http://kbroman.org/minimal_make/)
+* [Makefile tutorial](http://makefiletutorial.com/)
 
 ## Git
 
