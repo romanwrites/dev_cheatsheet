@@ -14,3 +14,7 @@ dev_cheatsheet
 
 ## React
 * [Deploy react app on Surge or Github pagese](https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/)
+
+## CSS
+* [🥕 Grid Garden](https://codepip.com/games/grid-garden/)
+* [🐸 Flexbox Froggy](https://flexboxfroggy.com/)
