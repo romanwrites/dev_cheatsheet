@@ -4,6 +4,9 @@ Shortly: "Yes".
 
 ## Arguments and links
 
+The Standard. Annex j part (starts on page 406). More precisely "J.3.12 Library functions" (page 422)
+[Standard ISO/IEC 9899:yyyy](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf)
+
 Article [Why it is important to check what the malloc function returned](https://medium.com/pvs-studio/why-it-is-important-to-check-what-the-malloc-function-returned-ba39f3d13a83)
 
 Статья на русском [Почему важно проверять, что вернула функция malloc](https://habr.com/ru/company/pvs-studio/blog/348098/)
