@@ -1,12 +1,14 @@
 dev_cheatsheet
 
-dev notes and useful links
+dev notes and useful links [updates]
 
 # Learn
 
-## Guides
+## 21 school (Ecole 42) guides
 
 * [Clion](clion_getting_started.md)
+* [Should you check what malloc() returns?](c-malloc.md)
+* [🧭 Как выжить на бассейне школы 21](https://github.com/kukinpower/21_piscine_guide)
 
 ## Useful links
 * [A minimal tutorial on make](http://kbroman.org/minimal_make/)

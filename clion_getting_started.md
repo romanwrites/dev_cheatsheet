@@ -3,7 +3,7 @@
 
 Если у меня уже есть хоть сколько-то файлов моего проекта, захожу в Clion и выбираю `New CMake Project from sources`
 
-<img src="./images/clion_from_sources.jpg" width=80% height=80%></img>
+<img src="./img/clion_from_sources.jpg" width=80% height=80%></img>
 
 Дальше ставлю галочки на файлы, которые хочу добавить в проект.
 
@@ -15,12 +15,12 @@
 
 Если не завелось, проверьте `CMakeLists.txt` и настройки `Run/Debug configurations`
 
-<img src="./images/clion_run_debug.jpeg" width=80% height=80%></img>
+<img src="./img/clion_run_debug.jpeg" width=80% height=80%></img>
 
 
 Чтобы добавить новый сорс, просто прописываем его название в `CMakeLists.txt` как на картинке.
 
-<img src="./images/clion_сmakelists.jpg" width=80% height=80%></img>
+<img src="./img/clion_сmakelists.jpg" width=80% height=80%></img>
 
 Когда проект создан, файлы можно добавить только вручную. Автоматически, к сожалению, пока нельзя - https://youtrack.jetbrains.com/issue/CPP-1749. Вы можете прокомментировать задачу или проголосовать за нее.
 
@@ -40,6 +40,6 @@
 
 Если `valgrind` установлен, то больше ничего настраивать не надо. Просто нажмите эту кнопку.
 
-<img src="./images/clion_run_valgrind.png" width=80% height=80%></img>
+<img src="./img/clion_run_valgrind.png" width=80% height=80%></img>
 
 Если есть что добавить — [пишите](https://t.me/kukinpower/)
