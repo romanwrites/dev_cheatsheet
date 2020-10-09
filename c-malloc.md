@@ -19,7 +19,7 @@ And table [13.3 ERR33-C. Detect and handle standard library errors](https://reso
 ## Show me what would happen if malloc() returns NULL?
 
 from [@oadhesiv](https://github.com/secondfry):
-```
+```c
 #define BUFFER_SIZE 1000000
 int main() {
   int *data = 0; // имитируем сфейлившийся маллок
@@ -28,7 +28,7 @@ int main() {
 ```
 
 from [@mtrisha](https://github.com/elijahkash)
-```
+```cpp
 #include <iostream>
 #include <stdlib.h>
 int main() {

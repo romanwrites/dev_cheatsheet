@@ -61,3 +61,15 @@ Run `copy(object)` in chrome console to copy object to your clipboard
 <a href="https://twitter.com/addyosmani">
 <img src="https://pbs.twimg.com/media/DynjoaBUYAAI12l?format=jpg&name=4096x4096" href="https://twitter.com/addyosmani"/></a>
 from [Addy Osmani](https://twitter.com/addyosmani)
+
+### How to center an object
+
+#### #1 way
+```css
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+```
