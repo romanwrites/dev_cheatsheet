@@ -38,6 +38,7 @@ dev notes and useful links [updates]
 
 
 # Frontend
+
 ## CSS
 ### Flexbox
 * [🥕 Grid Garden](https://codepip.com/games/grid-garden/)
@@ -47,3 +48,16 @@ dev notes and useful links [updates]
 
 ## React
 * [Deploy react app on Surge or Github pagese](https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/)
+
+## 👨🏻‍💻 Hacks and tips
+
+### Highlight code in browser
+Enter `data:text/html;,<body contenteditable>` to the address line of chrome. Copy some code from webstorm or vscode and paste somewhere on the page. You will get generated HTML with syntax highlighting. Nice homepage for a browser.
+
+<img src="img/chrome-contenteditable.png"/>
+
+### Copy objects from chrome console
+Run `copy(object)` in chrome console to copy object to your clipboard
+<a href="https://twitter.com/addyosmani">
+<img src="https://pbs.twimg.com/media/DynjoaBUYAAI12l?format=jpg&name=4096x4096" href="https://twitter.com/addyosmani"/></a>
+from [Addy Osmani](https://twitter.com/addyosmani)

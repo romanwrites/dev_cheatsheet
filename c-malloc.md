@@ -18,7 +18,7 @@ And table [13.3 ERR33-C. Detect and handle standard library errors](https://reso
 
 ## Show me what would happen if malloc() returns NULL?
 
-from @oadhesiv:
+from [@oadhesiv](https://github.com/secondfry):
 ```
 #define BUFFER_SIZE 1000000
 int main() {
