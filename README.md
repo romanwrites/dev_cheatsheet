@@ -73,3 +73,10 @@ from [Addy Osmani](https://twitter.com/addyosmani)
 	transform: translate(-50%, -50%);
 }
 ```
+
+## JS
+### Atwoord's law
+>“Any application that can be written in JavaScript, will eventually be written in JavaScript.”
+<div style="float: right;">
+Jeff Atwood, co-founder of Stack Overflow
+</div>
