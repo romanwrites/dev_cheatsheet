@@ -4,6 +4,10 @@ dev notes and useful links [updates]
 
 # Learn
 
+## Damn good videos
+* [Web Server Concepts and Examples](https://www.youtube.com/watch?v=9J1nJOivdyw)
+* [Pointers](https://www.youtube.com/watch?v=XISnO2YhnsY&t=1380s)
+
 ## 21 school (Ecole 42) guides
 
 * [Clion](clion_getting_started.md)
@@ -36,6 +40,9 @@ dev notes and useful links [updates]
 ## Testing
 * [Browserhost. Free crossbrowser tester](http://browsershots.org/)
 
+# C
+## Tips
+* To easily locate leaks in program on macOS, use debugger. Set breakpoints, and on every breakpoint use `leaks <your-program-process-name>`.
 
 # Frontend
 
