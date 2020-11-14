@@ -111,7 +111,7 @@ git checkout master
 ```
 Create merge commit
 ```
-git merge --no-ff master
+git merge --no-ff new_feature
 ```
 If there are no conflicts after merge, push
 ```
