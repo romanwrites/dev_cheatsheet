@@ -7,6 +7,7 @@ dev notes and useful links [updates]
 ## Damn good videos
 * [Web Server Concepts and Examples](https://www.youtube.com/watch?v=9J1nJOivdyw)
 * [Pointers](https://www.youtube.com/watch?v=XISnO2YhnsY&t=1380s)
+* [Kubernetes concepts](https://youtu.be/Krpb44XR0bk)
 
 ## 21 school (Ecole 42) guides
 
@@ -87,3 +88,40 @@ from [Addy Osmani](https://twitter.com/addyosmani)
 <div style="float: right;">
 Jeff Atwood, co-founder of Stack Overflow
 </div>
+
+# Git and Github
+The difference between git and github is like porn and pornhub
+
+## Basic team git workflow
+Master branch should always contain working version of a project. All new features should be made in different branches and than merged to master.
+
+So you should create new branch, make a feature and merge feature branch to master. Than branch can be deleted. And created a new one for another feature.
+
+Basic pipeline:
+
+Create a new branch and go there
+```
+git checkout -b new_feature
+```
+There code a new feature and changes to the branch
+
+When feature is ready checkout to master
+```
+git checkout master
+```
+Create merge commit
+```
+git merge --no-ff master
+```
+If there are no conflicts after merge, push
+```
+git push
+```
+If have conflicts, resolve them (vscode is good for this purpose)
+
+Create new commit and push
+```
+git add -A
+git commit -m "message"
+git push
+```
