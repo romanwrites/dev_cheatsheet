@@ -125,3 +125,36 @@ git add -A
 git commit -m "message"
 git push
 ```
+
+## Bash
+Amazing bash scripts
+
+Find all files containing "string" inside it
+```
+grep -iRlH "what to find" where_to_find
+```
+
+Find all files containg "sting" in the name of a file
+```
+find . -name "file mask" |  grep -H "string"
+
+//example:
+find . -name "*.yaml" | grep -H "telegraf"
+```
+
+Simple kubernetes dashboard to run in command line
+```bash
+#!/bin/bash
+
+while :
+do
+	kubectl get pods > z
+	echo -e "\n" >> z
+	kubectl get svc >> z
+	echo -e "\n" >> z
+	kubectl get deployments >> z
+	sleep 1
+	clear
+	cat z
+done
+```
