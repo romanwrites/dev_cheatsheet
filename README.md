@@ -126,6 +126,8 @@ git commit -m "message"
 git push
 ```
 
+* [Понятно о регулярках](https://youtu.be/_pLpx6btq6U)
+
 ## Bash
 Amazing bash scripts
 
