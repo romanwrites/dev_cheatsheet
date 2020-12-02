@@ -47,12 +47,7 @@ dev notes and useful links [updates]
 
 # Frontend
 
-## CSS
-### Flexbox
-* [🥕 Grid Garden](https://codepip.com/games/grid-garden/)
-* [🐸 Flexbox Froggy](https://flexboxfroggy.com/)
-* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [🎥 What The FlexBox?!](https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid&index=1&ab_channel=WesBos)
+## <a href="cdd.md">CSS</a>
 
 ## React
 * [Deploy react app on Surge or Github pagese](https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/)
@@ -69,18 +64,6 @@ Run `copy(object)` in chrome console to copy object to your clipboard
 <a href="https://twitter.com/addyosmani">
 <img src="https://pbs.twimg.com/media/DynjoaBUYAAI12l?format=jpg&name=4096x4096" href="https://twitter.com/addyosmani"/></a>
 from [Addy Osmani](https://twitter.com/addyosmani)
-
-### How to center an object
-
-#### #1 way
-```css
-.container {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-}
-```
 
 ## JS
 ### Atwoord's law
