@@ -20,3 +20,13 @@
 	transform: translate(-50%, -50%);
 }
 ```
+
+#### #2 way
+```css
+.parent {
+	display: flex;
+}
+.child {
+	margin: auto;
+}
+```
