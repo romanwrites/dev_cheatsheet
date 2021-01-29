@@ -55,3 +55,8 @@ echo y | exec $(rm -rf ~/Library/Application\ Support/Slack/Service\ Worker/Cach
 echo y | exec $(rm -rf ~/Library/Application\ Support/discord/Cache/*)
 echo y | exec $(rm -rf ~/Library/Application\ Support/Code/Cache/*)
 ```
+
+See how much disk space is used by every dir or file at current dir. And sort output from lowest to highest
+```bash
+du -hs *[^*] | sort -h
+```
