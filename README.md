@@ -2,6 +2,10 @@ dev_cheatsheet
 
 dev notes and useful links [updates]
 
+# Shell scripts
+
+[My collection of amazing scripts](sh.md)
+
 # Learn
 
 ## Damn good videos
@@ -110,46 +114,3 @@ git push
 ```
 
 * [Понятно о регулярках](https://youtu.be/_pLpx6btq6U)
-
-## Bash
-Amazing bash scripts
-
-Find all files containing "string" inside it
-```
-grep -iRlH "what to find" where_to_find
-```
-
-Find all files containg "sting" in the name of a file
-```
-find . -name "file mask" |  grep -H "string"
-
-//example:
-find . -name "*.yaml" | grep -H "telegraf"
-```
-
-Simple kubernetes dashboard to run in command line
-```bash
-#!/bin/bash
-
-while :
-do
-	kubectl get pods > z
-	echo -e "\n" >> z
-	kubectl get svc >> z
-	echo -e "\n" >> z
-	kubectl get deployments >> z
-	sleep 1
-	clear
-	cat z
-done
-```
-
-Clear cache. Add your directories, but use this wisely.
-```bash
-#!/bin/bash
-echo y | exec $(rm -rf ~/Library/Caches/*)
-echo y | exec $(rm -rf ~/Library/Application\ Support/Slack/Cache/*)
-echo y | exec $(rm -rf ~/Library/Application\ Support/Slack/Service\ Worker/CacheStorage/*)
-echo y | exec $(rm -rf ~/Library/Application\ Support/discord/Cache/*)
-echo y | exec $(rm -rf ~/Library/Application\ Support/Code/Cache/*)
-```
