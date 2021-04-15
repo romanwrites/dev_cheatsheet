@@ -16,6 +16,14 @@ cat **/*.cpp **/*.hpp | wc -l
 find . -type f \( -name '*.cpp' -o -name '*.hpp' \) | xargs cat | wc -l
 ```
 
+Copy file via ssh
+```
+scp -P <port> <source> <destination>
+
+example:  
+scp -P 2222 user@localhost:/home/user/some.tar.gz ~/dev/some_content
+```
+
 Find all files containing "string" inside of it
 ```
 grep -iRlH "what to find" where_to_find
