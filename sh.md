@@ -68,3 +68,7 @@ See how much disk space is used by every dir or file at current dir. And sort ou
 ```bash
 du -hs *[^*] | sort -h
 ```
+
+## Store dotfiles nice way
+I use it, and recommend
+[The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
