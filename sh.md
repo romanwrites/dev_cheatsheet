@@ -1,8 +1,18 @@
-# Useful scripts and commands
+# Unix-like shell stuff
 
-Find out which ports are running
+## Store dotfiles nice way
+I use it, and recommend
+[The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
+
+## Scripts
+Find out which ports are busy  
+1
 ```
 sudo lsof | grep LISTEN
+```
+2
+```
+netstat -a -n | grep LISTEN
 ```
 
 Count lines in files
@@ -68,7 +78,3 @@ See how much disk space is used by every dir or file at current dir. And sort ou
 ```bash
 du -hs *[^*] | sort -h
 ```
-
-## Store dotfiles nice way
-I use it, and recommend
-[The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
