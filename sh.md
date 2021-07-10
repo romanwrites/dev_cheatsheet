@@ -1,7 +1,7 @@
 # Unix-like shell stuff
 
 ## Store dotfiles nice way
-I use it, and recommend
+I use it and recommend
 [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
 
 ## Scripts
