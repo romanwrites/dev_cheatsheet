@@ -5,7 +5,7 @@ I use it and recommend
 [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
 
 ## Docker
-Get container id with name `^postgres$`  
+Get container id with name `postgres`  
 ```
 docker ps -aqf "name=postgres"
 ```
