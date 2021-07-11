@@ -4,6 +4,13 @@
 I use it and recommend
 [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
 
+## Docker
+Get container id with name `^postgres$`  
+```
+docker ps -aqf "name=postgres"
+```
+[explanation](https://stackoverflow.com/a/34497614)
+
 ## Scripts
 Find out which ports are busy  
 1
