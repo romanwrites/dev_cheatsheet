@@ -6,3 +6,9 @@ Optional.ofNullable(someObject.generateSomething())
         .map(something -> something.doSomethingElse)
         .orElseThrow(IllegalArgument::new);
 ```
+
+## Compile java sources from shell
+```bash
+find * -name '*.java' > src.txt
+javac @src.txt
+```
