@@ -1,5 +1,10 @@
 # Git cheatsheet
 
+## Rename current commit before push
+```
+git commit --amend -m "your commit message"
+```
+
 ## What --no-ff option does
 `--no-ff` means "no fast-forwarding"  
 Using this option makes git create merge commit  
