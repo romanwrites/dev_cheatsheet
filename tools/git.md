@@ -33,3 +33,11 @@ then `pick` commits you want to stay, and `drop` commits you want to delete
 ```
 git checkout -b <branch_name>
 ```
+
+## Rename local branch when remote was renamed
+```
+git branch -m previous current
+git fetch origin
+git branch -u origin/current current
+git remote set-head origin -a
+```
