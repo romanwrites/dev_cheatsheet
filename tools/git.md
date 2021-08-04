@@ -41,3 +41,13 @@ git fetch origin
 git branch -u origin/current current
 git remote set-head origin -a
 ```
+
+## Stop tracking file
+```
+git update-index --assume-unchanged filename
+```
+
+## Undo and start tracking again
+```
+git update-index --no-assume-unchanged filename
+```
