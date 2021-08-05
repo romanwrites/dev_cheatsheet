@@ -12,3 +12,9 @@ Optional.ofNullable(someObject.generateSomething())
 find * -name '*.java' > src.txt
 javac @src.txt
 ```
+
+## Autowired RequiredArgsConstructor
+when needed to add qualifier to RequiredArgsConstructor do this:
+```java
+@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+```
