@@ -14,3 +14,7 @@ generate new users controller in new directory
 ```
 nest generate controller users
 ```
+or
+```
+nest g co users
+```
