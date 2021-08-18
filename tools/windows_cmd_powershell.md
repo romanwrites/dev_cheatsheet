@@ -1,4 +1,4 @@
-# Windows cmd and powershell
+# Windows cmd & powershell
 
 ## CMD
 Find out where is java
@@ -22,3 +22,12 @@ Count lines in files
 ```
 dir -Recurse *.txt | Get-Content | Measure-Object -Line
 ```
+
+## Lockscreen
+```
+windows + L
+```
+
+## Setup bash in IDEA terminal on windows
+Go to `File -> Settings -> Tools -> Terminal`  
+Set Shell path `"C:\Program Files\Git\bin\bash.exe"`
