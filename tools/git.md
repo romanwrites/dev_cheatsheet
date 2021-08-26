@@ -43,11 +43,22 @@ git remote set-head origin -a
 ```
 
 ## Stop tracking file
-```
+```bash
 git update-index --assume-unchanged filename
 ```
 
 ## Undo and start tracking again
 ```
 git update-index --no-assume-unchanged filename
+```
+
+## Download specific directory from github repo
+pattern
+```bash
+curl https://codeload.github.com/[owner]/[repo]/tar.gz/master | \ tar -xz --strip=2 [repo]-master/[folder_path]
+```
+
+example
+```bash
+curl https://codeload.github.com/kukinpower/dev_cheatsheet/tar.gz/main | tar -xz --strip=2 dev_cheatsheet-main/img
 ```
