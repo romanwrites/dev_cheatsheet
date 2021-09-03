@@ -46,3 +46,9 @@ boolean isJsonContextContainsField(DocumentContext jsonContext, String path) {
   return !((net.minidev.json.JSONArray) jsonContext.read(path)).isEmpty();
 }
 ```
+
+## Why use Optional over null?
+Optional tells code user that a method can return empty value  
+It has iseful methods to handle errors  
+Better to read then null handling with conditions  
+Idea warns you if you are trying to get value without check. So it reduces NPE  
