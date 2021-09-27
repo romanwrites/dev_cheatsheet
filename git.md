@@ -62,3 +62,13 @@ example
 ```bash
 curl https://codeload.github.com/kukinpower/dev_cheatsheet/tar.gz/main | tar -xz --strip=2 dev_cheatsheet-main/img
 ```
+
+## Show git branches graph in shell
+```
+git log --graph --oneline
+```
+
+## View git objects in shell
+```
+git cat-file -p <object hash>
+```
