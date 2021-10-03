@@ -72,3 +72,6 @@ git log --graph --oneline
 ```
 git cat-file -p <object hash>
 ```
+
+# Git and Github
+The difference between git and github is like porn and pornhub
