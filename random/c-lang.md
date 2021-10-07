@@ -7,3 +7,12 @@ Even with optimisation if use strlen with variable as a parameter, strlen will b
 
 ## Tips
 * To easily locate leaks in program on macOS, use debugger. Set breakpoints, and on every breakpoint use `leaks <your-program-process-name>`.
+
+## MacOS leaks at exit
+```
+leaks -atExit -- ./a.out
+```
+
+I also recommend to add alias in your rc file:
+```
+alias leaksa='leaks -atExit --'```
