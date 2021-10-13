@@ -5,6 +5,7 @@
 * [A minimal tutorial on make](http://kbroman.org/minimal_make/)
 * [Makefile tutorial](http://makefiletutorial.com/)
 * [🇷🇺 Сгенерировать liquibase миграции](https://sysout.ru/rabota-s-liquibase/). Пункт 2
+* [Throttling in java spring boot](https://golb.hplar.ch/2019/08/rate-limit-bucket4j.html)
 
 ## Some good videos
 * [Web Server Concepts and Examples](https://www.youtube.com/watch?v=9J1nJOivdyw)
