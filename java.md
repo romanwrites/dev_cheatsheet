@@ -52,3 +52,11 @@ Optional tells code user that a method can return empty value
 It has iseful methods to handle errors  
 Better to read then null handling with conditions  
 Idea warns you if you are trying to get value without check. So it reduces NPE  
+
+## Test multithreading as if in one thread
+```java
+doAnswer(invocation -> {
+  ((Runnable)invocation.getArgument(0)).run();
+  return null;
+}).when(threadPoolTaskExecutor).execute(any(Runnable.class));
+```
