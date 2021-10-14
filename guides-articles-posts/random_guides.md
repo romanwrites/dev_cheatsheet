@@ -12,3 +12,6 @@
 * [Pointers](https://www.youtube.com/watch?v=XISnO2YhnsY&t=1380s)
 * [Kubernetes concepts](https://youtu.be/Krpb44XR0bk)
 * [🇷🇺 Понятно о регулярках](https://youtu.be/_pLpx6btq6U)
+
+## Algorithms
+* [🇷🇺 Round Robin](https://youtu.be/YC_wmTQ1HCs)
