@@ -13,3 +13,7 @@ Setter injection should primarily only be used for optional dependencies that ca
 
 ## Interceptors
 https://programmer.group/three-interceptors-in-spring.html
+
+## Tests ignore logging level in application.yml
+I used `lombok` annotation `@Slf4j`. And set log level in `application.yml`.  Tests ignored it.  
+So I add file [`logback-test.xml`](files/logback-test.xml) to src/test/resources  
