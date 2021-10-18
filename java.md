@@ -60,3 +60,9 @@ doAnswer(invocation -> {
   return null;
 }).when(threadPoolTaskExecutor).execute(any(Runnable.class));
 ```
+
+## Throw exception with protected constructor
+Can create an anonymous exception by adding {}
+```
+when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProcessingException("message"){})
+```
