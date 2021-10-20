@@ -1,6 +1,6 @@
 # Some useful code snippets
 
-## When needing to chain call and handle NPE
+## Handle NPE when need a chain call and 
 ```java
 Optional.ofNullable(someObject.generateSomething())
         .map(something -> something.doSomethingElse)
