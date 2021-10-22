@@ -13,3 +13,10 @@ Here are some tips and commands to remember
 [guides](guides-articles-posts/random_guides.md)
 
 Feel free to contribute your best `git` and `sh` tips
+
+# java
+[java](java.md)
+[spring](spring.md)
+
+# tools
+[tools](tools.md)
