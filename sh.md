@@ -89,3 +89,8 @@ See how much disk space is used by every dir or file at current dir. And sort ou
 ```bash
 du -hs *[^*] | sort -h
 ```
+
+## Recursively ls
+```
+find . -ls
+```
