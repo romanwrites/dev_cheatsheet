@@ -32,6 +32,11 @@ docker volume rm $(docker volume ls -q)
 docker network rm $(docker network ls | tail -n+2 | awk '{if($2 !~ /bridge|none|host/){ print $1 }}')
 ```
 
+## Clear all
+```
+docker system prune --all
+```
+
 ## Get container id with name `postgres`
 Stackoverflow [explanation](https://stackoverflow.com/a/34497614)  
 ```bash
