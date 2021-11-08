@@ -23,6 +23,12 @@ Count lines in files
 dir -Recurse *.txt | Get-Content | Measure-Object -Line
 ```
 
+## Git Bash
+Copy ssh-key to clipboard
+```
+clip < ~/.ssh/id_rsa.pub
+```
+
 ## Lockscreen
 ```
 windows + L
