@@ -85,3 +85,8 @@ du -hs *[^*] | sort -h
 ```
 find . -ls
 ```
+
+## Copy ssh key to clipboard
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
