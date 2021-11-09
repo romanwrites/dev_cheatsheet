@@ -41,4 +41,4 @@ Go to `File -> Settings -> Tools -> Terminal`
 Set Shell path `"C:\Program Files\Git\bin\bash.exe"`
 
 ### Export Idea settings
-File > Manage IDE Settings > Export Settings
+`File > Manage IDE Settings > Export Settings`
