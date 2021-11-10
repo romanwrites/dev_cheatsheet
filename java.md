@@ -73,3 +73,9 @@ when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProce
 ### JSON
 #### Compare two `JSONObject` regardless ordering
 https://www.baeldung.com/jsonassert
+
+todo add:
+jsonpath
+caffeine
+throttling library
+telegram bot
