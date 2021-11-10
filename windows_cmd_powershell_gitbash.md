@@ -42,3 +42,7 @@ Set Shell path `"C:\Program Files\Git\bin\bash.exe"`
 
 ### Export Idea settings
 `File > Manage IDE Settings > Export Settings`
+
+## Outlook
+To view as conversations
+`View` > `Show as Conversations`
