@@ -69,6 +69,11 @@ Can create an anonymous exception by adding {}
 when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProcessingException("message"){})
 ```
 
+## Ways to read file from `resources`
+```java
+Files.readString.(Path.of("src/java/resources/path-to-file"));
+```
+
 ## Useful Libraries
 ### JSON
 #### Compare two `JSONObject` regardless ordering
