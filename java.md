@@ -79,8 +79,18 @@ Files.readString.(Path.of("src/java/resources/path-to-file"));
 #### Compare two `JSONObject` regardless ordering
 https://www.baeldung.com/jsonassert
 
-todo add:
-jsonpath
-caffeine
-throttling library
-telegram bot
+#### JsonPath
+https://www.baeldung.com/guide-to-jayway-jsonpath
+
+### Throttling
+#### Bucket4j
+https://www.baeldung.com/spring-bucket4j
+
+
+### Cache
+#### Caffeine
+https://www.baeldung.com/java-caching-caffeine
+
+### Telegram bot
+#### TelegramBots
+https://github.com/rubenlagus/TelegramBots
