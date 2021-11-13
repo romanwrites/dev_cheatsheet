@@ -15,4 +15,16 @@ leaks -atExit -- ./a.out
 
 I also recommend to add alias in your rc file:
 ```
-alias leaksa='leaks -atExit --'```
+alias leaksa='leaks -atExit --'
+```
+
+## C oneliner
+just for fun
+```c
+// main.c
+#include <stdio.h> @ int main() { printf("lolkek\n");}
+```
+
+```bash
+cat main.c | tr -s '@' '\n' | gcc -x c - && ./a.out
+```
