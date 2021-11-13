@@ -13,3 +13,6 @@
 
 ## Algorithms
 * [🇷🇺 Round Robin](https://youtu.be/YC_wmTQ1HCs)
+
+## Web
+* [Cursor pagination](https://uxdesign.cc/why-facebook-says-cursor-pagination-is-the-greatest-d6b98d86b6c0)
