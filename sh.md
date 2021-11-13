@@ -36,6 +36,11 @@ example:
 scp -P 2222 user@localhost:/home/user/some.tar.gz ~/dev/some_content
 ```
 
+## If needed to make system wait and don't waste cpu time
+```
+tail -f /dev/null
+```
+
 ## Find all files containing "string" inside of it
 ```
 grep -iRlH "what to find" where_to_find
