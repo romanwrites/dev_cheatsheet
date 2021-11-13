@@ -23,11 +23,26 @@ Count lines in files
 dir -Recurse *.txt | Get-Content | Measure-Object -Line
 ```
 
+## Git Bash
+Copy ssh-key to clipboard
+```
+clip < ~/.ssh/id_rsa.pub
+```
+
 ## Lockscreen
 ```
 windows + L
 ```
 
-## Setup bash in IDEA terminal on windows
+## Intellij IDEA
+
+### Setup bash in IDEA terminal on windows
 Go to `File -> Settings -> Tools -> Terminal`  
 Set Shell path `"C:\Program Files\Git\bin\bash.exe"`
+
+### Export Idea settings
+`File > Manage IDE Settings > Export Settings`
+
+## Outlook
+To view as conversations
+`View` > `Show as Conversations`

@@ -1,24 +1,26 @@
-# Some useful code snippets
+# Java
 
-## Handle NPE when need a chain call and 
+## Some useful code snippets
+
+### Handle NPE when need a chain call and 
 ```java
 Optional.ofNullable(someObject.generateSomething())
         .map(something -> something.doSomethingElse)
         .orElseThrow(IllegalArgument::new);
 ```
 
-## Compile java sources from shell
+### Compile java sources from shell
 ```bash
 find * -name '*.java' > src.txt
 javac @src.txt
 ```
 
-## Delete .class files
+### Delete .class files
 ```
 find . -name "*.class" -delete
 ```
 
-## Autowired RequiredArgsConstructor
+### Autowired RequiredArgsConstructor
 when needed to add qualifier to RequiredArgsConstructor do this:
 ```java
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
@@ -29,7 +31,7 @@ After spring 4.3 can use just
 @RequiredArgsConstructor
 ```
 
-## Check if json field exists
+### Check if json field exists
 use [jsonPath](https://www.baeldung.com/guide-to-jayway-jsonpath) library
 ```java
 boolean hasOrangeInProducts(ResponseEntity<String> responseEntity) {
@@ -47,13 +49,13 @@ boolean isJsonContextContainsField(DocumentContext jsonContext, String path) {
 }
 ```
 
-## Why use Optional over null?
+### Why use Optional over null?
 Optional tells code user that a method can return empty value  
 It has iseful methods to handle errors  
 Better to read then null handling with conditions  
 Idea warns you if you are trying to get value without check. So it reduces NPE  
 
-## Test multithreading as if in one thread
+### Test multithreading as if in one thread
 ```java
 doAnswer(invocation -> {
   ((Runnable)invocation.getArgument(0)).run();
@@ -61,8 +63,24 @@ doAnswer(invocation -> {
 }).when(threadPoolTaskExecutor).execute(any(Runnable.class));
 ```
 
-## Throw exception with protected constructor
+### Throw exception with protected constructor
 Can create an anonymous exception by adding {}
 ```
 when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProcessingException("message"){})
 ```
+
+## Ways to read file from `resources`
+```java
+Files.readString.(Path.of("src/java/resources/path-to-file"));
+```
+
+## Useful Libraries
+### JSON
+#### Compare two `JSONObject` regardless ordering
+https://www.baeldung.com/jsonassert
+
+todo add:
+jsonpath
+caffeine
+throttling library
+telegram bot
