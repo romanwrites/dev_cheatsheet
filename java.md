@@ -74,6 +74,19 @@ when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProce
 Files.readString.(Path.of("src/java/resources/path-to-file"));
 ```
 
+```java
+String FILENAME = "file.csv";
+
+ClassPathResource classPathResource = new ClassPathResource(FILENAME);
+InputStream inputStream = classPathResource.getInputStream();
+InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+while (bufferedReader.ready()) {
+  String line = bufferedReader.readLine();
+}
+```
+
 ## Useful Libraries
 ### JSON
 #### Compare two `JSONObject` regardless ordering
