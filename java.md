@@ -87,6 +87,19 @@ while (bufferedReader.ready()) {
 }
 ```
 
+```java
+class ResourceFileReader {
+
+  public static void main(String[] args) throws URISyntaxException, IOException {
+    URL resource = ResourceFileReader.class.getResource("/some.txt");
+    URI uri = Objects.requireNonNull(resource).toURI();
+    Path path = Paths.get(uri);
+    List<String> lines = Files.lines(path).collect(Collectors.toList());
+    System.out.println(lines);
+  }
+}
+```
+
 ## Useful Libraries
 ### JSON
 #### Compare two `JSONObject` regardless ordering
