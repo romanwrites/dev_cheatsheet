@@ -34,6 +34,11 @@ clip < ~/.ssh/id_rsa.pub
 windows + L
 ```
 
+## Screenshot to clipboard
+```
+shift + win + S
+```
+
 ## Intellij IDEA
 
 ### Setup bash in IDEA terminal on windows
