@@ -1,30 +1,30 @@
 # Windows cmd & powershell
 
 ## CMD
-Find out where is java
+### Find out where is java
 ```
 where java
 ```
 
-Set `path` env variable value
+### Set `path` env variable value
 ```
 setx path "%path%;<your-new-path>"
 ```
-Be very careful with this one, it will silently truncate path string if it's over 1024 bytes length
+*Be very careful with this one*, it will silently truncate path string if it's over 1024 bytes length
 
-Open current folder
+### Open current folder
 ```
 start .
 ```
 
 ## PowerShell
-Count lines in files
+### Count lines in files
 ```
 dir -Recurse *.txt | Get-Content | Measure-Object -Line
 ```
 
 ## Git Bash
-Copy ssh-key to clipboard
+### Copy ssh-key to clipboard
 ```
 clip < ~/.ssh/id_rsa.pub
 ```
@@ -37,6 +37,12 @@ windows + L
 ## Screenshot to clipboard
 ```
 shift + win + S
+```
+
+## Open program in command line
+in fact you need just to choose an executable and pass an argument to this
+```
+/path/to/program.exe /path/to/file-or-folder
 ```
 
 ## Intellij IDEA
