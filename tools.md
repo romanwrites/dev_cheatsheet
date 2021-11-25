@@ -11,3 +11,4 @@
 ✨ [DbDiagram](https://dbdiagram.io/) noce db designer
 [Dbdesigner](https://app.dbdesigner.net/designer) Free database designer
 [Json to go](https://mholt.github.io/json-to-go/)
+[Json schema mock data generator](https://www.liquid-technologies.com/online-schema-to-json-converter)
