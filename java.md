@@ -1,5 +1,9 @@
 # Java
 
+## Generate src
+### [Generate sources from openapi](https://github.com/kukinpower/generate-spring-src-maven)
+
+
 ## Some useful code snippets
 
 ### Handle NPE when need a chain call and 
