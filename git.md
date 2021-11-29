@@ -73,5 +73,11 @@ git log --graph --oneline
 git cat-file -p <object hash>
 ```
 
+## Commit with specific date
+override the commit date
+```
+git commit -m "message" --date YYYY-MM-DD
+```
+
 # Git and Github
 The difference between git and github is like porn and pornhub
