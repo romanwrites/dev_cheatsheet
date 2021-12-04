@@ -8,7 +8,7 @@
 [Less-Addictive-Youtube](https://chrome.google.com/webstore/detail/less-addictive-youtube/olhmbgdbpfpkpejldoihajphhilpdnle) More focused YouTube watching
 
 ## Others
-✨ [DbDiagram](https://dbdiagram.io/) noce db designer  
+✨ [DbDiagram](https://dbdiagram.io/) nice db designer  
 
 [Dbdesigner](https://app.dbdesigner.net/designer) Free database designer  
 
