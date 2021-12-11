@@ -18,6 +18,11 @@ sudo lsof | grep LISTEN
 netstat -a -n | grep LISTEN
 ```
 
+## See processes using port 8080
+```
+sudo lsof -i:8080
+```
+
 ## Count lines in files  
 1
 ```
