@@ -75,7 +75,7 @@ when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProce
 
 ## Ways to read file from `resources`
 ```java
-Files.readString.(Path.of("src/java/resources/path-to-file"));
+Files.readString(Path.of("src/java/resources/path-to-file"));
 ```
 
 ```java
