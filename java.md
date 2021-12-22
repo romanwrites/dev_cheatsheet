@@ -95,7 +95,7 @@ while (bufferedReader.ready()) {
 class ResourceFileReader {
 
   public static void main(String[] args) throws URISyntaxException, IOException {
-    URL resource = ResourceFileReader.class.getResource("/some.txt");
+    URL resource = ResourceFileReader.class.getResource("some.txt");
     URI uri = Objects.requireNonNull(resource).toURI();
     Path path = Paths.get(uri);
     List<String> lines = Files.lines(path).collect(Collectors.toList());
