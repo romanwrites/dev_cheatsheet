@@ -1,4 +1,4 @@
-# Visual Studion code
+# Visual Studio code
 
 ## Settings
 ### Turn off annoying autocompletion by tab
