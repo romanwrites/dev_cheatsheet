@@ -79,5 +79,10 @@ override the commit date
 git commit -m "message" --date YYYY-MM-DD
 ```
 
+## Set default branch name globally
+```
+git config --global init.defaultBranch main
+```
+
 # Git and Github
 The difference between git and github is like porn and pornhub
