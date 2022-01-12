@@ -8,6 +8,12 @@ I use it and recommend
 [Docker](docker.md)
 
 ## Scripts
+### Pass file to stdout
+If program reads data from `stdin` but data stored in file you can just redirect file content to `stdin` in shell
+```
+python3 some.py < data.txt
+```
+
 ### Find out which ports are busy  
 1
 ```
