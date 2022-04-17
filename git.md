@@ -86,3 +86,13 @@ git config --global init.defaultBranch main
 
 # Git and Github
 The difference between git and github is like porn and pornhub
+
+# Windows
+## Long paths
+```
+config --system core.longpaths true
+```
+or if not enough rights
+```
+config --global core.longpaths true
+```
