@@ -69,8 +69,14 @@ doAnswer(invocation -> {
 
 ### Throw exception with protected constructor
 Can create an anonymous exception by adding {}
-```
+```java
 when(objectMapper.writeValueAsString(any(Object.class))).thenThrow(new JsonProcessingException("message"){})
+```
+
+### Mask specific field in json file
+```java
+String myRegex = "(\"name\"\\s*:\\s*\")(.+)(\"\\s*)(?=[,}])";
+String replacedValue = json.replaceAll(myRegex,"$1********$3");
 ```
 
 ## Ways to read file from `resources`
