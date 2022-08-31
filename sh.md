@@ -112,3 +112,12 @@ pbcopy < ~/.ssh/id_rsa.pub
 ```
 keytool -printcert -file certificate.pem
 ```
+
+## Git
+### Prepend issue key before commit message
+Add script location to `PATH`
+```bash
+#!/bin/bash
+taskKey="$(git branch | grep -Eo '(?:\*\s{1})[A-Z]+-\d{4,5}' | sed -r 's/^\* //')"
+git commit -m "$taskKey $1"
+```
