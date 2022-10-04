@@ -96,3 +96,8 @@ or if not enough rights
 ```
 config --global core.longpaths true
 ```
+
+## squash branch soft where 2 is number of commits in a branch
+```
+git reset --soft HEAD~2 && git commit -am "squashed"
+```
