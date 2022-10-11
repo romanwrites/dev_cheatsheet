@@ -9,3 +9,6 @@ For example to add quatation marks:
 ### Tips for windows
 
 [Tips for windows](windows_cmd_powershell_gitbash.md)
+
+### Debug run to specific breakpoint
+Found handy option `Force Run to Cursor`. When have many breakpoints but want to skip several of them and run to specific one. It's handy to run to any line. By default hotkey is `Option+Cmd+F9`.
