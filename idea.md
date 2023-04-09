@@ -17,3 +17,10 @@ Found handy option `Force Run to Cursor`. When have many breakpoints but want to
 ```
 View -> Appearance -> Details in Tree View
 ```
+
+### Display Open Tabs in Multiple Rows
+```
+Editor > General > Editor Tabs.
+
+Uncheck "Show tabs in single row"
+```
